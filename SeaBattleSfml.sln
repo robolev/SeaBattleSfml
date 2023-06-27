@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaBattle2", "SeaBattle2\SeaBattle2.csproj", "{48D6B0DE-3174-4CCD-B9C6-A57E1C7DBE6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{87E50BB5-129A-43F5-B5F2-ED9D9F14C256}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48D6B0DE-3174-4CCD-B9C6-A57E1C7DBE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D6B0DE-3174-4CCD-B9C6-A57E1C7DBE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D6B0DE-3174-4CCD-B9C6-A57E1C7DBE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D6B0DE-3174-4CCD-B9C6-A57E1C7DBE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E50BB5-129A-43F5-B5F2-ED9D9F14C256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E50BB5-129A-43F5-B5F2-ED9D9F14C256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E50BB5-129A-43F5-B5F2-ED9D9F14C256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E50BB5-129A-43F5-B5F2-ED9D9F14C256}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

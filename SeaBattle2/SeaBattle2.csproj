@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Engine\Engine.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SFML.Net" Version="2.5.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Images\CatsWarship.jpg" />
+      <EmbeddedResource Include="ButtonImages\StartButton.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="Images\CatsWarship.jpg">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="UI\ButtonImages\StartButton.png" />
+      <None Remove="Empty.png" />
+      <EmbeddedResource Include="empty.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="ship2.png" />
+      <None Remove="ship4.png" />
+      <None Remove="ship5.png" />
+      <None Remove="hit.png" />
+      <EmbeddedResource Include="hit.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="ship2bottom.png" />
+      <None Remove="ship2top.png" />
+      <None Remove="ship3bottom.png" />
+      <None Remove="ship3medium.png" />
+      <None Remove="ship3top.png" />
+      <None Remove="shiptop.png" />
+      <None Remove="shipBottom1.png" />
+      <None Remove="shipbottom2.png" />
+      <None Remove="shiptop2.png" />
+      <None Remove="shipmedium.png" />
+      <None Remove="ShipSprite\1.png" />
+      <EmbeddedResource Include="ShipSprite\1.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="ShipSprite\0.png" />
+      <EmbeddedResource Include="ShipSprite\0.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="ShipSprite\2.png" />
+      <EmbeddedResource Include="ShipSprite\2.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="ShipSprite\3.png" />
+      <EmbeddedResource Include="ShipSprite\3.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="ShipSprite\4.png" />
+      <EmbeddedResource Include="ShipSprite\4.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+    </ItemGroup>
+
+</Project>
